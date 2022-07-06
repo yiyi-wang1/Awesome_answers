@@ -13,6 +13,6 @@ class WelcomeController < ApplicationController
     end
 
     def form_example
-
+        
     end
 end
