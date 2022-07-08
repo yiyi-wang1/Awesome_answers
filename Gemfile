@@ -50,6 +50,10 @@ gem "bootsnap", require: false
 
 gem 'pry-rails', '~> 0.3.9'
 
+gem "faker"
+
+gem 'cowsay', '~> 0.3.0'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
@@ -64,6 +68,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  gem 'cowsay', '~> 0.3.0'
+end
+
+group :assets do
+gem 'jquery-rails', '~> 4.5'
 end
 

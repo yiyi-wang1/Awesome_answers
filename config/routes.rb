@@ -1,4 +1,29 @@
 Rails.application.routes.draw do
+  # # new
+  # get 'questions/new'
+
+  # #create
+  # post 'questions', to: 'questions#create', as: :create_question
+
+  # # index
+  # get 'questions', to: 'questions#index'
+
+  # # show
+  # get 'questions/:id', to: 'questions#show', as: :question
+
+  # #edit
+  # get 'questions/:id/edit', to: 'questions#edit', as: :edit_question
+
+  # #update
+  # patch 'questions/:id', to: 'questions#update'
+
+  # # destroy
+  # delete 'questions/:id', to: 'questions#destroy', as: :delete_question
+
+  resources :questions
+
+
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
